@@ -110,3 +110,16 @@ input[type="submit"] {
     font-weight: bold;
     user-select: none; /* Não deixa o usuário selecionar o texto */
 }
+
+.get-app-panel {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-buttons {
+    margin-top: 16px;
+}
+.app-buttons img {
+    height: 40px;
+    padding: 0 2px;
+}
