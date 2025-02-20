@@ -198,3 +198,48 @@ footer a {
     color: #8e8e8e;
     user-select: none;
 }
+
+/* Resposividade */
+@media (max-width:799.20px) {
+    .left {
+        display: none;
+    }
+
+    #container {
+        width: 70%;
+    }
+
+    .right {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:560px) {
+    .left {
+        display: none;
+    }
+
+    #container {
+        width: 90%;
+    }
+
+    .right {
+        padding-left: 0;
+    }
+
+    #container-signup {
+        width: 90%;
+    }
+
+    input[type="password"], input[type="text"], input[type="submit"] {
+        width: 85%;
+    }
+
+    .cta-button {
+        width: 85%;
+    }
+
+    .messge {
+        margin: 10px 25px;
+    }
+}
