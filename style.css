@@ -151,7 +151,6 @@ footer a {
 }
 
 /* Singup */
-
 #container-signup {
     margin: 0 auto;
     min-height: 100%;
@@ -204,6 +203,33 @@ footer a {
     color: #8e8e8e;
     user-select: none;
 }
+/* End Singup */
+
+/* Feed */
+
+.tarja {
+    background: var(--black);
+    color: var(--white);
+    font-size: 24px;
+    text-align: center;
+    padding: 14px;
+    width: 100%;
+}
+
+.cabecalho {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    border: 1px solid red;
+}
+.cabecalho .logo {
+    width: 20%;
+    align-self: flex-end;
+}
+/* End Feed */
 
 /* Resposividade */
 @media (max-width:799.20px) {
